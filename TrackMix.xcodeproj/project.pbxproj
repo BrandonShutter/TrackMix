@@ -18,6 +18,7 @@
 		56EC25361859482E00CE42C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EC25151859482E00CE42C4 /* Cocoa.framework */; };
 		56EC253E1859482E00CE42C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56EC253C1859482E00CE42C4 /* InfoPlist.strings */; };
 		56EC25401859482E00CE42C4 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EC253F1859482E00CE42C4 /* TrackMixTests.m */; };
+		56EC255118595FCF00CE42C4 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EC255018595FCF00CE42C4 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		56EC253B1859482E00CE42C4 /* TrackMixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMixTests-Info.plist"; sourceTree = "<group>"; };
 		56EC253D1859482E00CE42C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56EC253F1859482E00CE42C4 /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		56EC254F18595FCF00CE42C4 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		56EC255018595FCF00CE42C4 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				56EC252A1859482E00CE42C4 /* MainMenu.xib */,
 				56EC252D1859482E00CE42C4 /* Images.xcassets */,
 				56EC251C1859482E00CE42C4 /* Supporting Files */,
+				56EC254F18595FCF00CE42C4 /* Track.h */,
+				56EC255018595FCF00CE42C4 /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EC255118595FCF00CE42C4 /* Track.m in Sources */,
 				56EC25291859482E00CE42C4 /* AppDelegate.m in Sources */,
 				56EC25221859482E00CE42C4 /* main.m in Sources */,
 			);
